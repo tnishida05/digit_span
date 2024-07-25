@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #fff;
+}
+header {
+  width: 96%;
+  margin: 0px auto;
+}
+main {
+  width: 96%;
+  margin: 0px auto;
+}
+footer {
+  width: 96%;
+  margin: 0px auto;
+}
+ul {
+  list-style: none;
+}

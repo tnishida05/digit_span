@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/basic.css">
+  <script src="js/lastmod.js"></script>
+  <script src="js/mt.js"></script>
+  <script src="digit_span.js"></script>
+  <title>数唱</title>
+</head>
+<body>
+  <header><h1>ブラウザで数唱</h1></header>
+  <main>
+    <article>
+      <h1>数唱</h1>
+      <select id="dgt">
+        <option value="0">桁選択</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+      </select>
+      <input type="button" value="生成" id="gen" class="btn"></input>
+      <input type="button" value="再生" id="say" class="btn"></input>
+      <input type="button" value="停止" id="stop" class="btn"></input>
+      <input type="button" value="答え" id="show" class="btn"></input>
+      <div>
+        <div class="line_title">元の数</div>
+        <div id="NUM" class="line_box">
+        </div>
+        <div class="line_title">逆の数</div>
+        <div id="MUN" class="line_box">
+        </div>
+      </div>
+    </article>
+    <article>
+      <h1>説明</h1>
+      <ul>
+        <li>(1) 聞いた数を覚え、そのまま言う順唱、逆に言う逆唱など、使い方は自由です。</li>
+        <li>(2) [桁選択]→[生成]→[再生]を順番に行ってください。</li>
+        <li>(3) 読み上げ間隔は1秒で、数字は連続しないようにしています。友人からのアドバイスです。</li>
+        <li>(4) Javascriptを使用しています。</li>
+        <li>(5) 音声は <a href="https://www35.atwiki.jp/softalk/">Softalk（ゆっくり音声）</a> を使用しています。</li>
+        <li>(6) 上位ページに戻るにはこちら > <a href="../">トップページに戻る</a></li>
+      </ul>
+    </article>
+  </main>
+  <footer>javascriptがonの場合は最終更新日を表示します</footer>
+</body>
+</html>
