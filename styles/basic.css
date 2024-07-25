@@ -18,7 +18,8 @@ main {
 }
 footer {
   width: 96%;
-  margin: 0px auto;
+  margin: 0pt auto;
+  margin-top: 1em;
 }
 ul {
   list-style: none;
