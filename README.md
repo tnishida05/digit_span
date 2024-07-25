@@ -1,4 +1,4 @@
-# digit_span
+# ブラウザで数唱
 
 ブラウザで数唱ができる HTML です。
 JavaScript を利用しています。
