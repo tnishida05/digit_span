@@ -8,3 +8,5 @@ JavaScript を利用しています。
 
 数字を読み上げる音声として [Softalk (外部リンク) ](https://w.atwiki.jp/softalk/) を利用しています。
 [nums](/nums) に音声ファイルをまとめています。
+
+こちら [tnishida05.sakura.ne.jp/digit_span(外部サイト)](https://tnishida05.sakura.ne.jp/digit_span/) で遊ぶことができます。
